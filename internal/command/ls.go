@@ -2,6 +2,7 @@ package command
 
 import (
 	"fmt"
+	"j/pkg/utils"
 	"os"
 	"path/filepath"
 )
@@ -17,7 +18,7 @@ func Ls(args []string) {
 
 func getVersions() []string {
 	versions := make([]string, 0)
-	root := filepath.Join(os.Getenv("HOME"), ".j", "version")
+	root := filepath.Join(utils.HomeDir(), ".j", "version")
 
 	// 遍历目录
 	err := filepath.Walk(root, func(path string, info os.FileInfo, err error) error {

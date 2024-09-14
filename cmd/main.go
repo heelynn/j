@@ -8,4 +8,5 @@ import (
 func main() {
 	a := os.Args[1:]
 	args.SwitchArgs(a)
+	// 获取当前用户的主目录
 }
