@@ -13,9 +13,9 @@
  mkdir $HOME/.j/bin,$HOME/.j/version
  # 选择windows版本下载安装包，下载地址：https://github.com/heelynn/j/releases/latest
  # 将j.exe文件解压到$HOME/.j/bin目录下 
- 
- # 配置环境变量,也可使用系统界面设置环境变量
- 
+ ```
+配置环境变量,建议`使用系统界面`设置环境变量，使环境永久生效。
+ ```shell
  $env:JAVA_HOME="$HOME/.j/java"
  $env:PATH="$HOME/.j/bin:$JAVA_HOME/bin;$env:PATH;"
  ```
