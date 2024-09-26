@@ -6,6 +6,8 @@ Note: The `master` branch may be under development and is not a stable version. 
 
 `j` is a command-line tool for Linux, macOS, and Windows that provides a convenient way to manage and switch between multiple Java environments.
 
+`j` can easily switch Java versions.
+
 ## Manual Installation
 - Windows
 ```shell
