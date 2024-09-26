@@ -13,8 +13,9 @@ Note: The `master` branch may be under development and is not a stable version. 
 mkdir $HOME\.j\bin, $HOME\.j\version  
 # Choose the Windows version to download the installer from: https://github.com/heelynn/j/releases/latest  
 # Extract the j.exe file to the $HOME\.j\bin directory
+````
 Configure environment variables. It is recommended to use the system interface to set environment variables for permanent effect.
-```
+
 ```shell
 $env:JAVA_HOME="$HOME\.j\java"  
 $env:PATH="$HOME\.j\bin;$JAVA_HOME\bin;$env:PATH;"
