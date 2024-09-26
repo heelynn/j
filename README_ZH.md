@@ -6,6 +6,8 @@
 
 `j`是一个 Linux、macOS、Windows 下的命令行工具，可以提供一个便捷的多版本 Java 环境的管理和切换。
 
+`j`可以方便的切换Java version
+
 ## 手工安装
 
 - windows 
